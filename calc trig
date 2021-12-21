@@ -1,0 +1,43 @@
+k= input(" Enter the trignometric function you want to find: ")
+n="sin"
+c="cos"
+t="tan"
+print(f" You have chosen {k}")
+if k==n:
+   angs=int(input(" Enter the angle for sin function: "))
+elif k==c:
+   angc=int(input("Enter the angle for cos function:"))
+elif k==t:
+   angt=int(input("Enter the angle for tan function:"))
+
+if angs==0:
+   print("sin(0)= 0 ")
+elif angs==30:
+   print("sin(30)= 1/2 ")
+elif angs==45:
+   print("sin(45)= 1/√2 ")
+elif angs==60:
+  print("sin(60)=  √3/2")
+elif angs==90:
+  print("sin(90)= 1")
+
+if angc==0:
+   print("cos(0)=1")
+elif angc==30:
+   print("√3/2")
+elif angc==45:
+   print("print cos(45)=1 √2")
+elif angc==60:
+   print("cos(60)=1/2")
+elif angc==90:
+   print("cos(90)=0")
+elif angt==0:
+   print("tan(0)=0")
+elif angt==30:
+   print("tan(30)=1/√3")
+elif angt==45:
+   print("tan(45)=1")
+elif angt==60:
+   print("tan(60)=√3")
+elif angt==90:
+   print("tan(90)=not defined")
